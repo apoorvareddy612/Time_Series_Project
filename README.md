@@ -44,4 +44,31 @@ Run Forecasting Models
 ```bash
 python src/main.py
 ```
+Launch Dash App
+```bash
+python src/app.py
+```
+
+## Key Features
+
+- Forecasting daily energy prices using **ARMA, ARIMA, SARIMA, Box-Jenkins** models  
+- Data cleaning and preprocessing pipelines  
+- Visualizations of **trends, seasonality, and model performance**  
+- PDF report summarizing methodology and results  
+
+---
+
+## Skills Used
+
+- **Programming & Libraries:** Python, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, Scikit-learn  
+- **Techniques & Analysis:** Time Series Analysis, Forecasting, Data Visualization  
+- **Deployment & Tools:** Dash  
+
+---
+
+## Optional Notes
+
+- The `toolbox.py` module contains custom utility functions for data preprocessing, statistical analysis, and visualization.  
+- For reproducibility, ensure your working directory structure matches the project structure described above.
+
 
