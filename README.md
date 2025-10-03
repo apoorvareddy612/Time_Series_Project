@@ -25,7 +25,7 @@ Time_Series_Project/
 Clone the repository:
 
 ```bash
-git clone <REPO_URL>
+git clone https://github.com/apoorvareddy612/Time_Series_Project.git
 cd Time_Series_Project
 ```
 
