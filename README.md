@@ -1,25 +1,47 @@
 # Time_Series_Project
 
+**Description:**  
+This project focuses on forecasting daily energy prices using historical demand, generation, and weather data. Multiple time series models (ARMA, ARIMA, SARIMA, Box-Jenkins) were implemented and evaluated to improve forecasting accuracy and support strategic decision-making in the energy sector.
+
+---
+
+## Project Structure
+
+```text
 Time_Series_Project/
-├── Data/
-│   └── final.csv
-├── src /
-│   ├── app.py
-│   ├── clean.py
-│   ├── main.py
-│   ├── proposal.py
-│   └── toolbox.py
-└── Bagepalli_Report.pdf
+|-- Data/
+|   |-- final.csv           # Cleaned dataset for modeling
+|-- src/
+|   |-- app.py              # Streamlit/FastAPI app (optional)
+|   |-- clean.py            # Data cleaning and preprocessing scripts
+|   |-- main.py             # Run forecasting models
+|   |-- proposal.py         # Project proposal / planning
+|   |-- toolbox.py          # Helper functions and utilities
+|-- requirements.txt        # Project dependencies
+|-- Bagepalli_Report.pdf     # Final project report
+```
+## Installation
 
-clean.py : to clean the kaggle data
+Clone the repository:
 
-app.py : to run dash app in local machine 
-python3 ./src/app.py
+```bash
+git clone <REPO_URL>
+cd Time_Series_Project
+```
 
+Install dependencies from requirements.txt:
 
-To run the main code, 
-1. Open terminal in the current directory
-2. Run : python3 ./src/main.py 
+```bash
+pip install -r requirements.txt
+```
 
+## Usage
+Data Preprocessing
+```bash
+python src/clean.py
+```
+Run Forecasting Models
+```bash
+python src/main.py
+```
 
-It takes time to load few visualization plots (~2-4 mins)
